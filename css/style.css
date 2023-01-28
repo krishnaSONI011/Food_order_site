@@ -15,9 +15,7 @@
     color: white;
     transition: all ease .5s;
 }
-/* #menubtn{
-    display: none;
-} */
+
 #btnmennu{
     display: none;
 }
@@ -61,11 +59,59 @@ header{
     
 }
 
+/* home//main img */
+/* home */
+#mainIMG{
+    display: none;
+}
+.forimghere{
+  
+   
+}
+.container{
+ 
+ 
+ padding: 40px;
+ 
+
+}
+
 /*________________ responsive ______________ */
+/* forSLargeScreen */
+@media (min-width:1200px) 
+{
+    .forimghere{
+  
+        border: 2px black solid;
+        background:url("../resource/mainIMG_1200.jpg") no-repeat ;
+        background-size: 100%;
+        border-radius: 20px;
+        height: 575px;
+    }
+   
+}
 /* forLargeScreen */
-@media (max-width:992px) {
+@media (min-width:993px) and (max-width:1199px) {
+    .forimghere{
+        border: 2px black solid;
+        background:url("../resource/mainIMG_992.jpg") no-repeat ;
+        background-size: 100%;
+        border-radius: 20px;
+        height: 475px;
+    }
+    
+}
+/* superMID */
+@media (max-width:992px ) {
     header{
         font-size: .8rem;
+    }
+    .forimghere{
+        border: 2px black solid;
+        background:url("../resource/mainIMG_992.jpg") no-repeat ;
+        background-size: 100%;
+        border-radius: 20px;
+        height: 375px;
     }
     
 }
@@ -73,6 +119,13 @@ header{
 @media (max-width:768px) {
     header{
         font-size: .7rem;
+    }
+    .forimghere{
+        border: 2px black solid;
+        background:url("../resource/mainIMG_992.jpg") no-repeat ;
+        background-size: 100%;
+        border-radius: 20px;
+        height: 275px;
     }
     
 }
@@ -117,6 +170,15 @@ header{
        border: none;
         
     }
-   
+    #mainIMG{
+        display: block;
+        width: 100%;
+        border-radius: 20px;
+    }
+    .forimghere{
+        background: none;
+        border: none;
+        height: auto
+    }
     
 }
