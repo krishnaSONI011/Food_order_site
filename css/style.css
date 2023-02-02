@@ -4,7 +4,7 @@
     font-family: 'Oxygen', sans-serif;
 }
 /* header//navbar */
-#btnforcart{
+/* #btnforcart{
     display: none;
    padding: 10px;
    font-size: 20px;
@@ -22,7 +22,7 @@
 #btnforcart:hover{
     background-color: white;
     color: black;
-}
+} */
 .nav-bar{
     display: flex;
     justify-content: space-between;
@@ -160,7 +160,7 @@ footer{
 .container-items{
 padding: 20px;
 }
-#menu-title{
+.menu-title{
 text-align: center;
 margin-bottom:20px ;
 }
@@ -205,8 +205,63 @@ border-radius: 20px;
 /* menu-page end---------------------------------------- */
 
 
-
-
+/* beverage section start ---------------------------- */
+#btnforcart{
+    
+    padding: 10px;
+    font-size: 20px;
+     width: 100%;
+     border-radius: 20px;
+     border: white;
+     background-color: black;
+     color: white;
+     transition: all ease .5s;
+ }
+ 
+ #btnmennu{
+     display: none;
+ }
+ #btnforcart:hover{
+     background-color: white;
+     color: black;
+ }
+ .B-item img{
+     width: 500px;
+ height: 300px;
+ border-radius: 10px;
+ }
+ 
+ .bererage-item-tiles{
+     display: flex;
+     justify-content: space-evenly;
+ }
+ .B-item-title{
+     text-align: center;
+     padding: 10px;
+ }
+ .B-item{
+     margin: 10px;
+ }
+ .B-btn{
+ padding: 10px;
+ background-color: rgb(255, 200, 0);
+ color: white;
+ border: 2px rgb(255, 200, 0) solid;
+ width: 90%;
+ transition: all ease .5s;
+ cursor: pointer;
+ border-radius: 20px;
+ }
+ .B-item:hover{
+ 
+ }
+ .B-btn:hover{
+     background-color: white;
+     color: rgb(255, 200, 0);
+ }
+ .B-btn-con{
+     text-align: center;
+ }
 
 /*________________ responsive ______________ */
 /* forSLargeScreen */
@@ -220,7 +275,9 @@ border-radius: 20px;
         border-radius: 20px;
         height: 575px;
     }
-    /* menu section */
+    .B-item img{
+        width: 400px;
+    }
   
    
 }
@@ -238,6 +295,10 @@ border-radius: 20px;
         width: 400px;
         
     }
+    .B-item img{
+        width: 300px;
+    }
+
 }
 /* superMID */
 @media (max-width:992px ) {
@@ -270,6 +331,10 @@ border-radius: 20px;
         width: 300px;
         
     }
+    .B-item img{
+        width: 300px;
+    }
+
 }
 /* forMIDscreen */
 @media (max-width:768px) {
@@ -296,7 +361,12 @@ border-radius: 20px;
         width: 200px;
         height: 250px;
     }
-
+    .bererage-item-tiles{
+        display: block;
+    }
+    .B-item img{
+        width: 100%;
+    }
     
 }
 /* forSmallScreen */
