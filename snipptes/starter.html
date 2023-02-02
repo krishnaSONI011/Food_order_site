@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="css/style.css">
+    <title>RestaurentXD.co</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <!-- <link rel="stylesheet" href="../css/style-beverage.css"> -->
     <script src="https://kit.fontawesome.com/f7c6f7012b.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -25,8 +26,8 @@
         </section><!--title section-->
         <section class="nav-sec" id="nav_links">
             <ul id="nav-list">
-                <li><a href=# >HOME</a></li>
-                <li><a href="snipptes/menu.html" >MENU</a></li>
+                <li><a href="../index.html" >HOME</a></li>
+                <li><a href="../snipptes/menu.html">MENU</a></li>
                 <li><a href=#>ABOUT</a></li>
                 <li><a href=# >CONTACT</a></li>
             </ul>
@@ -38,30 +39,48 @@
         </section><!--button section-->
     </nav><!--nav-bar end-->
    </header>
-   <!--end of header here-->
-   <div class="home-content">
-   <!--Main Img here-->
-   <div class="container">
-    <div class="forimghere">
-        <img src="resource/mainIMG_768.jpg" alt="" id="mainIMG">
-    </div><!--forimghere end-->
-   </div><!--container end-->
-   <!--main tailes-->
-   <div class="maintiles container">
-    <div class="tile" id="tile-1">
-        <a href="snipptes/menu.html">
-        <img src="resource/menu-tile.jpg" alt="">
+   <!--header ends-->
+    <div class="container-beverage container">
+        <div class="menu-title"><h1>STARTER</h1></div>
+        <div class="beverage-item">
+            <div class="bererage-item-tiles">
+                <div class="B-item" id="s-item-1">
+                    <img src="../resource/menu_list/main_course/chola-masala.jpg" alt="">
+                    <div class="B-item-title"><h3>CHOLA MASALA</h3></div>
 
-        <div class="about-tile"><h3>Menu</h3></div></a>
-    </div><!--end tile-1-->
-    <a href="">
-    <div class="tile" id="tile-2">
-        <img src="resource/spacial-tile.jpg" alt="">
-        <div class="about-tile"><h3>specials</h3></div></a>
-        </div><!--tile-2 end-->
-   </div><!--maintiles-->
-</div><!--home content end -->
-<footer>
+                    <div class="B-item-rupee"><h3>&#8377; 250</h3></div>
+                    <div class="B-btn-con"><button class="B-btn">ADD TO CART</button></div>
+                </div><!--B-item end-->
+                <div class="B-item" id="s-item-2">
+                    <img src="../resource/menu_list/main_course/sahi-panner.jpg" alt="">
+                    <div class="B-item-title"><h3>SAHI PANEER</h3></div>
+                    <div class="B-item-rupee"><h3>&#8377; 150</h3></div>
+                    <div class="B-btn-con"><button class="B-btn">ADD TO CART</button></div>
+                </div><!--B-item end-->
+
+            </div><!--beverage item tile end-->
+            <div class="bererage-item-tiles">
+                <div class="B-item" id="s-item-3">
+                    <img src="../resource/menu_list/main_course/matar-paneer.jpg" alt="">
+
+                    <div class="B-item-title"><h3>MATAR PANEER</h3></div>
+                    <div class="B-item-rupee"><h3>&#8377; 100</h3></div>
+                    <div class="B-btn-con"><button class="B-btn">ADD TO CART</button></div>
+                </div><!--B-item end-->
+                <div class="B-item" id="s-item-4">
+                    <img src="../resource/menu_list/main_course/malai-kofta.jpg" alt="">
+                    <div class="B-item-title"><h3>MALAI KOFTA</h3></div>
+                    <div class="B-item-rupee"><h3>&#8377; 140</h3></div>
+                    <div class="B-btn-con"><button class="B-btn">ADD TO CART</button></div>
+                </div><!--B-item end-->
+
+            </div><!--beverage item tile end-->
+        </div>
+    </div>
+
+
+   <!-- footer strat -->
+   <footer>
     <div class="container" id="foot">
         <div id="foot-1"><h3>Hours:</h3><br>Mon - Fri : 10:00 am to 11:00 pm <br> Saturday - Sunday: Close</div>
         <hr class="hr-resp">
@@ -75,6 +94,7 @@
 
     </div>
 </footer>
-   <script src="js/script.js"></script>
+<!--footer end-->
+<script src="../js/script.js"></script>
 </body>
 </html>

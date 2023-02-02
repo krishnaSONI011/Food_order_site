@@ -229,6 +229,8 @@ border-radius: 20px;
      width: 500px;
  height: 300px;
  border-radius: 10px;
+ box-shadow:   1px 1px 10px black;
+
  }
  
  .bererage-item-tiles{
@@ -241,6 +243,9 @@ border-radius: 20px;
  }
  .B-item{
      margin: 10px;
+ }
+ .B-item-rupee{
+    text-align: center;
  }
  .B-btn{
  padding: 10px;
@@ -375,7 +380,7 @@ border-radius: 20px;
         position: relative;
     }
     .nav-bar{
-        display: block;
+        display: flex;
         text-align: center;
     }
     #nav_links{
@@ -401,7 +406,7 @@ border-radius: 20px;
     }
     #btnmennu{
         display: block;
-        position: absolute;
+        /* position: absolute; */
         
     }
     #menubtn{
@@ -479,4 +484,9 @@ border-radius: 20px;
         
     }
 
+}
+@media (max-width:378px){
+    #cart_btn button ,#cart_btn svg{
+        font-size: 12px;
+    }
 }
