@@ -13,3 +13,4 @@ menu.onclick= () =>{
 }
 //-----------------------------------------------------
 
+//for random specials menu category 

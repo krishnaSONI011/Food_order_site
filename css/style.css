@@ -179,6 +179,7 @@ height: 300px;
 }
 .show-tile{
     transition: all ease .5s;
+    margin-bottom:10px ;
 }
 .show-tile a{
     text-decoration: none;
@@ -207,7 +208,7 @@ border-radius: 20px;
 
 /* beverage section start ---------------------------- */
 #btnforcart{
-    
+    display: none;
     padding: 10px;
     font-size: 20px;
      width: 100%;
@@ -265,6 +266,7 @@ border-radius: 20px;
      color: rgb(255, 200, 0);
  }
  .B-btn-con{
+    display: none;
      text-align: center;
  }
 
